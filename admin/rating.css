@@ -1,0 +1,104 @@
+
+.ratingblock {
+	padding:10px 10px 10px 5px;
+  margin:2px 0 2px 0;
+  border:1px solid #c5c089;
+  background:#fff;
+}
+
+.ratingblock p {
+  font-size:11px;
+  padding:5px 0 0 5px;
+  color:#730406;
+}	
+
+.loading {
+	height: 32px;
+	background: url('templates/images/working.gif') 50% 50% no-repeat;
+}
+	
+.unit-rating { /* the UL */
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	height: 32px;
+	position: relative;
+	background: url('templates/images/starrating.jpg') top left repeat-x;		
+}
+
+.unit-rating li{
+    text-indent: -90000px;
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+}
+	
+.unit-rating li a {
+	outline: none;
+	display:block;
+	width:32px;
+	height:32px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+	
+.unit-rating li a:hover{
+	background: url('templates/images/starrating.jpg') left center;
+	z-index: 2;
+	left: 0px;
+}
+
+.unit-rating a.r1-unit{left: 0px;}
+.unit-rating a.r1-unit:hover{width:32px;}
+.unit-rating a.r2-unit{left:32px;}
+.unit-rating a.r2-unit:hover{width: 64px;}
+.unit-rating a.r3-unit{left: 64px;}
+.unit-rating a.r3-unit:hover{width: 96px;}
+.unit-rating a.r4-unit{left: 96px;}	
+.unit-rating a.r4-unit:hover{width: 128px;}
+.unit-rating a.r5-unit{left: 128px;}
+.unit-rating a.r5-unit:hover{width: 160px;}
+.unit-rating a.r6-unit{left: 160px;}
+.unit-rating a.r6-unit:hover{width: 192px;}
+.unit-rating a.r7-unit{left: 192px;}
+.unit-rating a.r7-unit:hover{width: 224px;}
+.unit-rating a.r8-unit{left: 224px;}
+.unit-rating a.r8-unit:hover{width: 256px;}
+.unit-rating a.r9-unit{left: 256px;}
+.unit-rating a.r9-unit:hover{width: 288px;}
+.unit-rating a.r10-unit{left: 288px;}
+.unit-rating a.r10-unit:hover{width: 320px;}
+
+.unit-rating li.current-rating {
+	background: url('templates/images/starrating.jpg') left bottom;
+	position: absolute;
+	height: 32px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+}
+
+.voted {
+  color:#999;
+}
+
+.thanks {
+ display: block;
+ font-size:10px;
+ padding:3px;
+ background:#fffbcb url(templates/images/tick.gif) no-repeat right center;
+ color:#000;
+ margin-top:6px;
+ border:1px solid #c5c089;
+}
+
+#bodyArea .comment p {
+  color:#5D3126;
+  font-size:13px;
+  padding-top:8px;
+}
