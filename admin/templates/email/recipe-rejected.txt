@@ -1,0 +1,22 @@
+Message From: {WEBSITE_NAME}
+-----------------------------------------------------------------
+
+Hi {NAME},
+
+Thanks for submitting a recipe for inclusion on our website. 
+
+Unfortunately the following recipe suggestion was deemed not 
+suitable for our website at this time.
+
+-----------------------------------------------------------------
+{TITLE}
+-----------------------------------------------------------------
+
+This is the decision of the webmaster and his decision is final.
+
+
+Kind regards,
+
+---------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}
