@@ -1,0 +1,25 @@
+Message From: {WEBSITE_NAME}
+-----------------------------------------------------------------
+
+Hi {NAME},
+
+Thanks for commenting on one of our recipes. Unfortunately your comment
+was deemed not suitable for our website at this time.
+
+-----------------------------------------------------------------
+{TITLE}
+{URL}
+-----------------------------------------------------------------
+Rejected Comments:
+
+"{COMMENT}"
+-----------------------------------------------------------------
+
+This is the decision of the webmaster and his decision is final.
+
+
+Kind regards,
+
+---------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}
