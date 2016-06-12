@@ -1,0 +1,27 @@
+Message From: {WEBSITE_NAME}
+-----------------------------------------------------------------
+
+Hi {NAME},
+
+Thanks for commenting on one of our recipes. Your comment has now been
+approved and is live on our website.
+
+-----------------------------------------------------------------
+{TITLE}
+{URL}
+-----------------------------------------------------------------
+Approved Comments:
+
+"{COMMENT}"
+-----------------------------------------------------------------
+
+Please note that your comment may have been moderated before being
+approved on our website. This is the decision of the webmaster and his
+decision is final.
+
+
+Kind regards,
+
+---------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}
