@@ -1,0 +1,23 @@
+Message From: {WEBSITE_NAME}
+-----------------------------------------------------------------
+
+Hi {NAME},
+
+Thanks for submitting a recipe for inclusion on our website.
+
+Your recipe has now been approved
+
+-----------------------------------------------------------------
+{TITLE}
+{URL}
+-----------------------------------------------------------------
+
+Thank you for your submission. Please feel free to submit other
+recipes if you have any available.
+
+
+Kind regards,
+
+---------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}
