@@ -1,0 +1,12 @@
+{WEBSITE_NAME} - Web Enquiry:
+==========================================
+
+The following enquiry has been submitted by {NAME} on {DATE}:
+------------------------------------------------------------------------------------
+
+{COMMENTS}
+
+Use the reply option in your e-mail program to respond to this message.
+
+---------------------------------
+Visitor IP(s) logged as: {IP}

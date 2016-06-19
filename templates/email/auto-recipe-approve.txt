@@ -1,0 +1,40 @@
+Hi {NAME},
+
+Thanks for submitting a recipe at "{WEBSITE_NAME}".
+
+You submitted the following:
+
+-------------------------------------------------------------------------------------------
+Details:
+-------------------------------------------------------------------------------------------
+
+Recipe Name: {RNAME}
+E-Mail: {CTCT}
+Category: {CAT}
+Images Uploaded: {IMG_COUNT}
+
+-------------------------------------------------------------------------------------------
+Ingredients:
+-------------------------------------------------------------------------------------------
+
+{INGREDIENTS}
+
+-------------------------------------------------------------------------------------------
+Cooking Instructions:
+-------------------------------------------------------------------------------------------
+
+{INSTRUCTIONS}
+
+-------------------------------------------------------------------------------------------
+
+We appreciate your thoughtfulness in wanting to share your recipe and your
+recipe will be reviewed by our staff very soon. An e-mail will follow when this process
+is completed.
+
+Please feel free to submit other recipes if you have time.
+
+Kind regards,
+
+-------------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}

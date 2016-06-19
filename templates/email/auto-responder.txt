@@ -1,0 +1,11 @@
+Hi {NAME},
+
+This e-mail confirms your recent enquiry to {WEBSITE_NAME} on {DATE}.
+
+Your enquiry is important to us and your e-mail will be answered as soon as possible.
+
+Kind regards,
+
+-------------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}

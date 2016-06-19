@@ -1,0 +1,17 @@
+<span class="headRightMid">{add_comment}:</span>
+<p class="addCommWrap">
+
+<label style="padding-top:0">{your_name}:</label>
+<input type="text" class="ac_box" name="name" id="name" value="" />
+
+<label>{your_email}:</label>
+<input type="text" class="ac_box" name="ctct" id="ctct" value="" />
+
+<label>{your_comments}:</label>
+<textarea name="comments" class="ac_textarea" id="comments" rows="4" cols="20"></textarea>
+
+{captcha}
+
+<span class="sc_button_area"><input onclick="addRecipeComment('{recipe}','{etext}','{iscode}','{isibox}');return false" class="ac_button" type="image" src="templates/images/add-comment.gif" alt="{add_comment}" title="{add_comment}" /></span>
+
+</p>

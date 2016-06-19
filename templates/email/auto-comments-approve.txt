@@ -1,0 +1,13 @@
+Hi {NAME},
+
+Thanks for commenting on the following recipe:
+
+{TITLE}
+
+Your comments will be reviewed shortly.
+
+Kind regards,
+
+-------------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}

@@ -1,0 +1,25 @@
+{WEBSITE_NAME} - New Recipe Comment:
+==========================================
+
+A new comment has been posted by {NAME} on {DATE} for the following recipe:
+-------------------------------------------------------------------------------------------
+
+{TITLE}
+
+-------------------------------------------------------------------------------------------
+Comment posted as follows:
+-------------------------------------------------------------------------------------------
+
+"{COMMENTS}"
+
+-------------------------------------------------------------------------------------------
+
+If you have comments set to approval for this recipe, log into your admin area to 
+edit, approve or reject this comment:
+
+{WEBSITE_URL}admin/
+
+
+
+---------------------------------
+Visitor IP(s) logged as: {IP}

@@ -1,0 +1,51 @@
+/*
+  Stylesheet - iBox
+  iBox version 2.17b
+ * For more info & download: http://labs.ibegin.com/ibox/
+ * Created as a part of the iBegin iBegin Labs Project - http://labs.ibegin.com/
+ * For licensing please see readme.html (MIT Open Source License)
+*/
+  
+#ibox {
+	z-index: 1000000;
+}
+#ibox_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000000;
+}
+#ibox_loading {
+	position: absolute;
+	z-index: 1000001;
+}
+#ibox_wrapper {
+	padding: 10px 10px 35px 10px;
+	line-height: 25px;
+	border-color: #fff;
+}
+#ibox_wrapper, #ibox_footer_wrapper a {
+	background-color: #730406;
+	color:#fff;
+}
+#ibox_content {
+	background-color: #fffbcb;
+	border: 0;
+	color:#000;
+}
+#ibox_footer_wrapper {
+	padding: 0 3px;
+	bottom: 5px;
+	top: auto;
+}
+#ibox_footer_wrapper a {
+    text-indent: -100000px;
+    background: url('images/closelabel.gif');
+    width: 66px;
+    height: 22px;
+}
+#ibox_progress {
+    text-indent: -100000px;
+    background: #fff;
+}

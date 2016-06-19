@@ -1,0 +1,12 @@
+Hi {FNAME},
+
+Your friend "{NAME}" has recommended the following recipe at "{WEBSITE_NAME}":
+
+{COMMENTS}
+
+
+Kind regards,
+
+-------------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}

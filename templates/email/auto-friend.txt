@@ -1,0 +1,11 @@
+Hi {NAME},
+
+Thanks for recommending a recipe at "{WEBSITE_NAME}".
+
+Your recommendation was sent to your friend "{FNAME}".
+
+Kind regards,
+
+-------------------------------------------
+{WEBSITE_NAME}
+{WEBSITE_URL}
