@@ -1,0 +1,37 @@
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Prevent directory browsing
+IndexIgnore */*
+
+# Set the default handler
+DirectoryIndex index.php
+
+# Maian Recipe rewrite rules
+# If your server displays a 404 and supports htaccess, you might need to uncomment
+# the next line and remove the IfModule rule below..
+# RewriteBase /
+RewriteRule ^(contact-us|about-us|add-recipe|rss-feed|404).html$ index.php?p=$1
+RewriteRule ^index.html$ index.php
+RewriteRule ^print/(.*)/index.html$ index.php?p=print&recipe=$1 [nc]
+RewriteRule ^rss-cat-feed/(.*)/index.html index.php?p=rss-cat-feed&cat=$1 [nc]
+RewriteRule ^tell-a-friend/(.*)/index.html$ index.php?p=tell-a-friend&recipe=$1 [nc]
+RewriteRule ^contact-recipe/(.*)/index.html$ index.php?p=contact-recipe&recipe=$1 [nc]
+RewriteRule ^add-recipe/(.*)/index.html$ index.php?p=add-recipe&cat=$1 [nc]
+RewriteRule ^print/(.*)/index.html$ index.php?p=print&id=$1 [nc]
+RewriteRule ^category/(.*)/(.*)/(.*)/index.html$ index.php?p=category&cat=$2&next=$3 [nc]
+RewriteRule ^category/(.*)/(.*)/(.*)/(.*)/index.html$ index.php?p=category&cat=$3&next=$4 [nc]
+RewriteRule ^free-recipe/(.*)/(.*)/(.*)/index.html$ index.php?p=recipe&recipe=$3 [nc]
+RewriteRule ^search-free-recipes/(.*)/(.*)/(.*)/index.html$ index.php?p=search-free-recipes&keys=$1&cat=$2&next=$3 [nc]
+
+# URL rewrite rules
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteCond %{REQUEST_FILENAME} !-l
+   RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
